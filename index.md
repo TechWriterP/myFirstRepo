@@ -1,6 +1,6 @@
 ---
 title: Demo Page
-layout: demo_template.html
+layout: demo_template
 author: Prashant
 ---
 
