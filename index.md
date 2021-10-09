@@ -13,9 +13,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor justo 
 Duis ac elementum nunc. Suspendisse sit amet viverra ipsum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In ultricies sapien ante, in tristique turpis malesuada quis. Suspendisse quis interdum justo. Mauris mauris est, aliquam vitae sem ac, molestie sollicitudin dolor. Aenean mattis eleifend orci sit amet cursus. Maecenas facilisis lectus vel nulla lobortis, et rutrum quam dictum. Nullam ac lorem lorem. Proin ante lacus, auctor at enim quis, dignissim malesuada turpis. Nullam ex ipsum, rhoncus vitae velit eu, tristique luctus ante. Aliquam ac metus magna. Suspendisse egestas quis dui eu facilisis.
 
 {% include practice_text.txt %}
-
-|Name|Place|
-|-----|-----|
+| Name | Place |
+| ----- | ----- |
 {% for item in site.data.practice_data %}
 | {{item.Name}} | {{item.Place}} |
 {% endfor %}
