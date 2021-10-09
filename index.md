@@ -17,5 +17,5 @@ Duis ac elementum nunc. Suspendisse sit amet viverra ipsum. Orci varius natoque 
 |Name|Place|
 {% for item in site.data.practice_data %}
 |---|---|
-|{{item.Name}}|{{item.Place}}|
+- |{{item.Name}}|{{item.Place}}|
 {% endfor %}
